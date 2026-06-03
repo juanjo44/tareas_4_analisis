@@ -1,0 +1,59 @@
+TAREA 4 - AFM - GRUPO 4
+========================================
+Variable suplementaria: Species
+Grupos: 1, 1, 7, 3, 1
+Numero de observaciones analizadas: 1337 
+Numero de variables analizadas: 13 
+
+VALORES PROPIOS
+        Dimension Autovalor PorcentajeVar PorcentajeAcum
+comp 1       Dim1  2.842392      7.197786       7.197786
+comp 2       Dim2  1.225995      3.104586      10.302372
+comp 3       Dim3  1.079570      2.733794      13.036166
+comp 4       Dim4  1.016376      2.573769      15.609935
+comp 5       Dim5  1.015313      2.571077      18.181012
+comp 6       Dim6  1.013927      2.567567      20.748580
+comp 7       Dim7  1.004546      2.543811      23.292391
+comp 8       Dim8  1.003734      2.541755      25.834146
+comp 9       Dim9  1.002063      2.537524      28.371669
+comp 10     Dim10  1.001721      2.536658      30.908327
+
+Numero de dimensiones para superar 70% acumulado: 26 
+Porcentaje acumulado en ese punto: 71.43 %
+
+MATRIZ RV ENTRE GRUPOS
+                  Species CountryOrigin      Sabor Presentacion QualityScore
+Species       1.000000000    0.09940215 0.09801199  0.004301909   0.00527182
+CountryOrigin 0.099402152    1.00000000 0.05980388  0.027728327   0.03248302
+Sabor         0.098011992    0.05980388 1.00000000  0.358185828   0.76448746
+Presentacion  0.004301909    0.02772833 0.35818583  1.000000000   0.61012112
+QualityScore  0.005271820    0.03248302 0.76448746  0.610121124   1.00000000
+MFA           0.105660844    0.91171516 0.38999171  0.352684768   0.40944694
+                    MFA
+Species       0.1056608
+CountryOrigin 0.9117152
+Sabor         0.3899917
+Presentacion  0.3526848
+QualityScore  0.4094469
+MFA           1.0000000
+
+NUMERO DE CLUSTERS EN HCPC:
+[1] 6
+
+TAMANOS DE CLUSTER:
+
+  1   2   3   4   5   6 
+ 46 442  98  17 539 195 
+
+TOP 10 DEL INDICE (0-100)
+   Cafe Indice_0_100
+29   29       100.00
+30   30        97.36
+36   36        95.31
+32   32        94.60
+33   33        93.76
+37   37        93.64
+38   38        91.69
+39   39        91.36
+31   31        91.22
+43   43        91.19
